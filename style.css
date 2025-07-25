@@ -34,8 +34,8 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin: 5px;
+  gap: 15px;
+  margin: 15px;
 }
 
 .navbar-container img {
@@ -79,6 +79,7 @@ body {
   max-width: 400px;
   border-radius: 10px;
   margin: 20px 0;
+  display: block;
 }
 
 .text-detail {
@@ -111,4 +112,16 @@ body {
   font-weight: 900;
   color: white;
   font-size: 14p
+}
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-prince- {
+    margin: 20px auto;
+    display: block;
+  }
 }
